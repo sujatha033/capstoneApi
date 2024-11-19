@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JokesApi</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Sixtyfour+Convergence&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Fontdiner+Swanky&family=Yusei+Magic&display=swap" rel="stylesheet"></head>
+<body>
+    <h1 class="fontdiner-swanky-regular">JokesApi</h1>
+    <div class="container">
+        <div class="response-area">
+            <p id="content">
+              <%= content %>
+            </p>
+          </div>
+    <form id="myForm" method="get" onclick="handler()">
+    <p>
+        <button type="button" id="button" class="btn btn-outline-secondary"  onclick="window.location.href='/joke'"  
+        >Get a joke</button>
+    </p>
+    </form>
+</div>
+<script>
+    function handler() {
+        // document.getElementById("peekaboo-button").hidden = true
+        console.log("suji");
+        document.getElementsByTagName("button").setAttribute("hidden",true);
+        document.getElementsByTagName("p").removeAttribute("hidden");
+        // document.getElementById("button").setAttribute("hidden");
+    }
+</script>
+</body>
+</html>
+
+
+
