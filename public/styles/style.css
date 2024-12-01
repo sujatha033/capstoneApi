@@ -38,8 +38,8 @@ h1{
 }
 
   #button:hover {background-color: #3e8e41;
-box-shadow: 1px 1px#3D5300;}
-  
+box-shadow: 1px 1p#2b3a02;}
+/* #3D5300; */
  
 #button{
    width: 150px;
@@ -48,7 +48,7 @@ box-shadow: 1px 1px#3D5300;}
    font-weight: bold;
    font-size: large;
    border-radius: 15%;
-   background-color : #F09319;
+   background-color : #587506;
    box-shadow: 1px 1px #ffe41ade;
   border: none;
 }
